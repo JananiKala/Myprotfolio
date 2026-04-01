@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App" style={cssVariables}>
-      <Header name={profileWithResume.name} />
+      <Header name="Janani Portfolio" />
 
       <main id="top" className="Main">
         <Hero profile={profileWithResume} profileImage={profileImage} />

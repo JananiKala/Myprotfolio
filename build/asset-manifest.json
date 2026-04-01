@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cca3c610.css",
-    "main.js": "/static/js/main.31012a29.js",
+    "main.js": "/static/js/main.01cc5170.js",
     "static/js/453.8b0f6639.chunk.js": "/static/js/453.8b0f6639.chunk.js",
     "static/media/profile.jpg": "/static/media/profile.2a23575880f86dc46780.jpg",
     "static/media/reactNative.png": "/static/media/reactNative.545bbc5db1ccd40702c6.png",
@@ -11,11 +11,11 @@
     "static/media/Janani_Kumaresan_Resume.docx": "/static/media/Janani_Kumaresan_Resume.7fc44b57b6060f620255.docx",
     "index.html": "/index.html",
     "main.cca3c610.css.map": "/static/css/main.cca3c610.css.map",
-    "main.31012a29.js.map": "/static/js/main.31012a29.js.map",
+    "main.01cc5170.js.map": "/static/js/main.01cc5170.js.map",
     "453.8b0f6639.chunk.js.map": "/static/js/453.8b0f6639.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cca3c610.css",
-    "static/js/main.31012a29.js"
+    "static/js/main.01cc5170.js"
   ]
 }
