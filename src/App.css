@@ -99,6 +99,7 @@ h6,
 
 .Hero {
   padding-top: 38px;
+  overflow-x: clip;
 }
 
 .Hero-inner {
@@ -128,6 +129,8 @@ h6,
   justify-content: center;
   align-items: center;
   gap: 18px;
+  width: 100%;
+  overflow-x: clip;
 }
 
 .Hero-avatar {
@@ -452,7 +455,13 @@ h6,
   }
 
   .Hero-avatar {
-    --avatar-size: 380px;
+    --avatar-size: min(72vw, 340px);
+    --orbit-badge-size: 40px;
+  }
+
+  .OrbitRings {
+    transform: scale(0.82);
+    transform-origin: center;
   }
 
   .Cards {
@@ -461,9 +470,17 @@ h6,
 }
 
 @media (max-width: 560px) {
+  .Container {
+    width: min(1100px, calc(100% - 24px));
+  }
+
   .Hero-avatar {
-    --avatar-size: 330px;
-    --orbit-badge-size: 40px;
+    --avatar-size: min(78vw, 280px);
+    --orbit-badge-size: 36px;
+  }
+
+  .OrbitRings {
+    transform: scale(0.66);
   }
 
   .Cards {
@@ -471,11 +488,23 @@ h6,
   }
 
   .Header-inner {
+    flex-direction: column;
     align-items: flex-start;
   }
 
   .Nav {
+    width: 100%;
+    gap: 8px;
     justify-content: flex-start;
+  }
+
+  .Hero-copy {
+    padding: 20px;
+  }
+
+  .Hero-resumeButton {
+    min-width: 0;
+    width: 100%;
   }
 }
 

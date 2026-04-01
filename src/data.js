@@ -14,6 +14,7 @@ export const profile = {
   links: [
     { label: "GitHub", href: "https://github.com/JananiKala" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/jananikumaresan" },
+    { label: "Portfolio", href: "https://myprotfolio-1-ao89.onrender.com" },
   ],
 };
 
